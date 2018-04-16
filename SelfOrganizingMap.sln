@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelfOrganizingMap", "SelfOrganizingMap\SelfOrganizingMap.vcxproj", "{24327512-3DCF-4814-88CA-54260FE70094}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample", "Sample\Sample.vcxproj", "{6EAB54B4-83FD-4CF9-8186-08F5635C7784}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24327512-3DCF-4814-88CA-54260FE70094} = {24327512-3DCF-4814-88CA-54260FE70094}
+		{851B556E-E037-4B46-B6A8-F7580ECA525B} = {851B556E-E037-4B46-B6A8-F7580ECA525B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Executable", "Executable\Executable.vcxproj", "{72358108-BC72-4E38-839B-F491E4F143E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24327512-3DCF-4814-88CA-54260FE70094} = {24327512-3DCF-4814-88CA-54260FE70094}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "csvFile", "csvFile\csvFile.vcxproj", "{851B556E-E037-4B46-B6A8-F7580ECA525B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24327512-3DCF-4814-88CA-54260FE70094}.Debug|x64.ActiveCfg = Debug|x64
+		{24327512-3DCF-4814-88CA-54260FE70094}.Debug|x64.Build.0 = Debug|x64
+		{24327512-3DCF-4814-88CA-54260FE70094}.Debug|x86.ActiveCfg = Debug|Win32
+		{24327512-3DCF-4814-88CA-54260FE70094}.Debug|x86.Build.0 = Debug|Win32
+		{24327512-3DCF-4814-88CA-54260FE70094}.Release|x64.ActiveCfg = Release|x64
+		{24327512-3DCF-4814-88CA-54260FE70094}.Release|x64.Build.0 = Release|x64
+		{24327512-3DCF-4814-88CA-54260FE70094}.Release|x86.ActiveCfg = Release|Win32
+		{24327512-3DCF-4814-88CA-54260FE70094}.Release|x86.Build.0 = Release|Win32
+		{6EAB54B4-83FD-4CF9-8186-08F5635C7784}.Debug|x64.ActiveCfg = Debug|x64
+		{6EAB54B4-83FD-4CF9-8186-08F5635C7784}.Debug|x64.Build.0 = Debug|x64
+		{6EAB54B4-83FD-4CF9-8186-08F5635C7784}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EAB54B4-83FD-4CF9-8186-08F5635C7784}.Debug|x86.Build.0 = Debug|Win32
+		{6EAB54B4-83FD-4CF9-8186-08F5635C7784}.Release|x64.ActiveCfg = Release|x64
+		{6EAB54B4-83FD-4CF9-8186-08F5635C7784}.Release|x64.Build.0 = Release|x64
+		{6EAB54B4-83FD-4CF9-8186-08F5635C7784}.Release|x86.ActiveCfg = Release|Win32
+		{6EAB54B4-83FD-4CF9-8186-08F5635C7784}.Release|x86.Build.0 = Release|Win32
+		{72358108-BC72-4E38-839B-F491E4F143E1}.Debug|x64.ActiveCfg = Debug|x64
+		{72358108-BC72-4E38-839B-F491E4F143E1}.Debug|x64.Build.0 = Debug|x64
+		{72358108-BC72-4E38-839B-F491E4F143E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{72358108-BC72-4E38-839B-F491E4F143E1}.Debug|x86.Build.0 = Debug|Win32
+		{72358108-BC72-4E38-839B-F491E4F143E1}.Release|x64.ActiveCfg = Release|x64
+		{72358108-BC72-4E38-839B-F491E4F143E1}.Release|x64.Build.0 = Release|x64
+		{72358108-BC72-4E38-839B-F491E4F143E1}.Release|x86.ActiveCfg = Release|Win32
+		{72358108-BC72-4E38-839B-F491E4F143E1}.Release|x86.Build.0 = Release|Win32
+		{851B556E-E037-4B46-B6A8-F7580ECA525B}.Debug|x64.ActiveCfg = Debug|x64
+		{851B556E-E037-4B46-B6A8-F7580ECA525B}.Debug|x64.Build.0 = Debug|x64
+		{851B556E-E037-4B46-B6A8-F7580ECA525B}.Debug|x86.ActiveCfg = Debug|Win32
+		{851B556E-E037-4B46-B6A8-F7580ECA525B}.Debug|x86.Build.0 = Debug|Win32
+		{851B556E-E037-4B46-B6A8-F7580ECA525B}.Release|x64.ActiveCfg = Release|x64
+		{851B556E-E037-4B46-B6A8-F7580ECA525B}.Release|x64.Build.0 = Release|x64
+		{851B556E-E037-4B46-B6A8-F7580ECA525B}.Release|x86.ActiveCfg = Release|Win32
+		{851B556E-E037-4B46-B6A8-F7580ECA525B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A1EF16B-FADD-466D-8D18-14C056C7D856}
+	EndGlobalSection
+EndGlobal
